@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(img/galaxia.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+
+.lua {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #fff;
+	/*efeito de sombreamento*/
+	box-shadow: 0 0 15px rgba(0,155,255,0.5),
+				0 0 30px rgba(0,155,255,0.5),
+				0 0 45px rgba(0,155,255,0.5),
+				0 0 60px rgba(0,155,255,0.5),
+				0 0 10px rgba(0,155,255,0.5);
+}
+
+.foguete {
+	top: -50%;
+	left: -60%;
+	position: absolute;
+	transform-origin: 200px 200px;
+
+	animation: foguete 10s linear infinite;
+}
+
+.foguete img {
+	width: 85px;
+	height: 85px;
+}
+
+@keyframes foguete {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
