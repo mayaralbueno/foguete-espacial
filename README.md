@@ -2,7 +2,7 @@
 criação de um foguete espacial com css e html para treinar conceitos de front-end
 
 
-<h2  align="center">Tecnologias 🚀🛠 <h2>
+<h2  align="center">Tecnologias 🚀🛠 <h2>    
 <br>
 <table align="center" style=" width: 60%" >
   <tr>
@@ -19,6 +19,13 @@ criação de um foguete espacial com css e html para treinar conceitos de front-
      
   </tr>
 </table>
+  
+  
+        
+ <p align="center">
+<img src="https://media.giphy.com/media/0FUqLbGhxgxAfW35YH/giphy.gif" style="width: 35%;">
+</p>
+
   
   
   <h2  align="center"> PREVIEW  <h2>
